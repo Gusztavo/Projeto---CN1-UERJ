@@ -53,7 +53,7 @@ def calculate_portfolio_sharpe(portfolio):
         sharpe_ratios.append(sharpe_ratio)
 
     # Retorna o menor índice de Sharpe do portfólio
-    return min(sharpe_ratios)
+    return max(sharpe_ratios)
 
 
 def main():
